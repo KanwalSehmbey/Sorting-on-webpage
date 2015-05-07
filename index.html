@@ -1,0 +1,49 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            th#name {
+                width: 300px;
+            }
+            th {
+                width: 150px;
+                text-align: left;
+            }
+            .asc {
+                background:url('icon_asc.gif') no-repeat left center;
+                padding-left: 20px;
+            }
+            .desc {
+                background:url('icon_desc.gif') no-repeat left center;
+                padding-left: 20px;
+            }
+        </style>
+        <script type="text/javascript" src="customers.js"></script>
+    </head>
+    <body>
+        <div>Industry: 
+            <select id="industrySel">
+                <option id="All">All</option>
+            </select>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th id="name">Customer Name</th>
+                    <th id="industry">Industry</th>
+                    <th id="state">State</th>
+                    <th id="revenue" class="desc">Revenue</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
